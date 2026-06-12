@@ -1,0 +1,15 @@
+node_modules
+dist
+.astro
+.git
+.github
+.env
+.env.*
+.coolify.env
+*.log
+.vscode
+.idea
+docs
+scripts
+SPEC.md
+BUILD-REPORT.md
