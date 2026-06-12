@@ -1,0 +1,103 @@
+---
+import Layout from '../layouts/Layout.astro';
+import stonesRaw from '../data/stones.json';
+import { REGIONS, RARITIES, CATEGORIES } from '../lib/meta.js';
+
+const stones = stonesRaw.map((s) => ({
+  ...s,
+  rarityLabel: RARITIES[s.rarity] ?? s.rarity,
+  categoryLabel: CATEGORIES[s.category] ?? s.category,
+  regionLabels: s.regions.map((r) => REGIONS[r] ?? r),
+}));
+
+const usedRegions = Object.entries(REGIONS).filter(([key]) => stones.some((s) => s.regions.includes(key)));
+---
+
+<Layout title="Łowcy Kamieni — Łowy">
+  <div class="toolbar">
+    <div class="search-wrap">
+      <span class="lens" aria-hidden="true">🔍</span>
+      <input id="search" type="search" placeholder="Szukaj kamienia…" autocomplete="off" />
+    </div>
+
+    <div class="chips" data-chips-region role="group" aria-label="Filtr regionu">
+      <button class="chip" aria-pressed="true">Wszystkie regiony</button>
+      {usedRegions.map(([key, label]) => <button class="chip" data-value={key} aria-pressed="false">{label}</button>)}
+    </div>
+
+    <div class="chips rarity" data-chips-rarity role="group" aria-label="Filtr rzadkości">
+      <button class="chip" aria-pressed="true">Każda rzadkość</button>
+      {Object.entries(RARITIES).map(([key, label]) => <button class="chip" data-value={key} aria-pressed="false">{label}</button>)}
+    </div>
+
+    <div class="row-split">
+      <div class="segmented" data-status-seg role="group" aria-label="Status">
+        <button data-value="all" aria-pressed="true">Wszystkie</button>
+        <button data-value="todo" aria-pressed="false">Do zdobycia</button>
+        <button data-value="done" aria-pressed="false">Zdobyte ✓</button>
+      </div>
+      <select id="sort" aria-label="Sortowanie">
+        <option value="points-asc">Od najłatwiejszych</option>
+        <option value="points-desc">Od najcenniejszych</option>
+        <option value="name">Alfabetycznie</option>
+      </select>
+    </div>
+
+    <p class="result-count" data-result-count></p>
+  </div>
+
+  <section class="grid" data-grid>
+    {
+      stones.map((s) => (
+        <article class="card" data-id={s.id} data-rarity={s.rarity}>
+          <button class="card-open" aria-label={`Szczegóły: ${s.name}`}>
+            <div class="card-media">
+              <img src={s.image.file} alt={s.name} loading="lazy" decoding="async" />
+              <span class="rarity-chip">{s.rarityLabel}</span>
+              <div class="stamp"><span>✓ MAMY TO!</span></div>
+            </div>
+            <div class="card-body">
+              <h3>{s.name}</h3>
+              <div class="card-meta">
+                <span class="points">+{s.points} pkt</span>
+                <span>{s.regionLabels[0]}</span>
+              </div>
+            </div>
+          </button>
+          <div class="card-body" style="padding-top:0">
+            <button class="find-btn">Znalazłem! 🙌</button>
+          </div>
+        </article>
+      ))
+    }
+  </section>
+
+  <dialog id="stone-dialog" aria-labelledby="dlg-name">
+    <div class="dlg-media">
+      <img data-dlg-img src="" alt="" />
+      <button class="dlg-close" aria-label="Zamknij">✕</button>
+    </div>
+    <div class="dlg-body">
+      <h2 id="dlg-name" data-dlg-name></h2>
+      <div class="dlg-tags" data-dlg-tags></div>
+      <p data-dlg-desc></p>
+      <div class="dlg-section">
+        <h4>📍 Gdzie występuje</h4>
+        <p data-dlg-where></p>
+      </div>
+      <div class="dlg-section">
+        <h4>🕵️ Jak szukać</h4>
+        <p data-dlg-how></p>
+      </div>
+      <div class="dlg-section">
+        <h4>🤯 Ciekawostka</h4>
+        <p data-dlg-fact></p>
+      </div>
+      <button class="dlg-find" data-dlg-find>Znalazłem! 🙌</button>
+      <p class="dlg-attr" data-dlg-attr></p>
+    </div>
+  </dialog>
+
+  <script type="application/json" id="stones-data" set:html={JSON.stringify(stones)} />
+  <script src="../scripts/game.js"></script>
+</Layout>

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+npm-debug.log*
+
+# lokalny stan narzędzi (nie część gry)
+.claude/
+CLAUDE.md

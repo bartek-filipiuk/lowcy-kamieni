@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="38%" r="75%">
+      <stop offset="0" stop-color="#f3ead6"/><stop offset="1" stop-color="#dcc9a6"/>
+    </radialGradient>
+    <radialGradient id="stone" cx="42%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#7e8a93"/><stop offset="1" stop-color="#525d66"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#sky)"/>
+  <ellipse cx="200" cy="208" rx="118" ry="30" fill="#000" opacity="0.10"/>
+  <path d="M96 150 q-6 -54 60 -74 q70 -22 118 8 q40 28 26 74 q-14 50 -84 60 q-78 12 -110 -28 q-12 -16 -10 -40 Z" fill="url(#stone)" stroke="#3f474e" stroke-width="3"/>
+  <path d="M120 138 q-4 -38 50 -52 q58 -16 100 8 q30 22 20 56 q-12 38 -66 46 q-62 8 -90 -22 q-12 -14 -14 -40 Z"
+        fill="none" stroke="#f7f3ea" stroke-width="11" stroke-linejoin="round" opacity="0.95"/>
+  <path d="M120 138 q-4 -38 50 -52 q58 -16 100 8 q30 22 20 56 q-12 38 -66 46 q-62 8 -90 -22 q-12 -14 -14 -40 Z"
+        fill="none" stroke="#cdbfa6" stroke-width="1.5" stroke-linejoin="round"/>
+  <text x="200" y="262" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#5c4b3b">kamień szczęścia ✨</text>
+</svg>

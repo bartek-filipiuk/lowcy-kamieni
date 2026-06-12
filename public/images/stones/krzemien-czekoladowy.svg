@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ece1cb"/><stop offset="1" stop-color="#d9cba9"/>
+  </linearGradient></defs>
+  <rect width="400" height="300" fill="url(#g)"/>
+  <path d="M120 205 L168 112 L248 130 L288 205 Z" fill="#8c857b" stroke="#71634f" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M168 112 L204 158 L248 130" fill="none" stroke="#71634f" stroke-width="4"/>
+  <text x="200" y="255" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#5c4b3b">Krzemień czekoladowy</text>
+</svg>

@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "bursztyn-baltycki",
+    "name": "Bursztyn bałtycki",
+    "nameLatin": "Succinite (Baltic amber)",
+    "category": "organiczny",
+    "rarity": "rzadki",
+    "points": 25,
+    "description": "To nie kamień, tylko zastygła żywica drzew, które rosły tu 40 milionów lat temu! Jest lekki, ciepły w dotyku i potrafi świecić na pomarańczowo pod słońce. Morze wyrzuca go na plażę razem z patykami i wodorostami, bo bursztyn jest prawie tak lekki jak woda. Mały okruch to już wielki sukces, a bryłka wielkości orzecha to powód do tańca radości.",
+    "whereInPoland": "Wybrzeże Bałtyku: Wyspa Sobieszewska i Górki Zachodnie przy ujściu Wisły Śmiałej, Mikoszewo przy ujściu Wisły, Jantar, Stegna, Sztutowo, Kąty Rybackie, Hel. Działa też cała Zatoka Gdańska.",
+    "howToSearch": "Idź na plażę zaraz po jesiennym lub zimowym sztormie, najlepiej o świcie, zanim przyjdą zawodowcy. Szukaj w pasie wyrzuconych wodorostów, patyków i czarnych drobinek (tzw. kidzina) - bursztyn pływa razem z nimi. Test domowy: prawdziwy bursztyn potarty o sweter przyciąga skrawki papieru, a w mocno osolonej wodzie pływa!",
+    "funFact": "Bursztyn z zatopionym w środku komarem lub mrówką sprzed 40 milionów lat to trofeum życia - takie okazy trafiają do muzeów. A największe polskie bryły ważyły kilka kilogramów!",
+    "regions": [
+      "baltyk-pomorze"
+    ],
+    "image": {
+      "file": "/images/stones/bursztyn-baltycki.jpg",
+      "author": "W.carter",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:A_piece_of_raw_Baltic_amber_1.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "krzemien-baltycki",
+    "name": "Krzemień bałtycki",
+    "nameLatin": "Baltic flint",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Najtwardszy zawodnik na plaży - jest twardszy od noża! Z zewnątrz szary lub biały, ale po rozbiciu błyszczy ciemnym, szklistym wnętrzem jak czekoladowy cukierek z polewą. Lodowiec przywlókł go z dna Bałtyku i ze Skandynawii, a fale wyrzeźbiły w nim czasem zwariowane kształty: dziurki, garby, a nawet kształty zwierzaków.",
+    "whereInPoland": "Praktycznie każda kamienista plaża Bałtyku - od Świnoujścia po Krynicę Morską. Małe otoczaki krzemienia, zwane jaskółczymi chlebkami, są typowe dla Pomorza Środkowego. Krzemienie narzutowe leżą też na polach całego niżu Polski.",
+    "howToSearch": "Idź wzdłuż linii fal tam, gdzie leżą kamyki, i szukaj szarych otoczaków z białą skorupką. Mokre krzemienie błyszczą i łatwiej je wypatrzeć. Bonus: szukaj krzemieni z naturalnymi dziurkami albo o śmiesznych kształtach - każdy jest inny. Nie tłucz ich przy ludziach, odłamki są ostre jak żyletki!",
+    "funFact": "Ludzie epoki kamienia robili z krzemienia noże, groty strzał i siekiery - to był ich scyzoryk, zapalniczka i nóż kuchenny w jednym. Uderzony o stal sypie iskrami!",
+    "regions": [
+      "baltyk-pomorze",
+      "cala-polska"
+    ],
+    "image": {
+      "file": "/images/stones/krzemien-baltycki.jpg",
+      "author": "Cambridgeshire County Council, Helen Fowler",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Flint_Nodule_(FindID_418889).jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "kwarc-mleczny",
+    "name": "Kwarc mleczny (otoczak)",
+    "nameLatin": "Milky quartz",
+    "category": "mineral",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Te śnieżnobiałe, gładkie kamyki na plaży to czysty minerał kwarc - ten sam, z którego zrobiony jest piasek i kryształy w zegarkach. Niektóre są mleczne jak kulka lodów, inne prawie przezroczyste. Mokry kwarc wygląda, jakby świecił od środka. Czasem trafi się otoczak granitu z żyłką kwarcu w środku - jak biała błyskawica zamrożona w kamieniu.",
+    "whereInPoland": "Każda plaża Bałtyku z kamykami, brzegi jezior na Pomorzu, Kaszubach, Warmii i Mazurach, żwirownie i pola na całym niżu polodowcowym.",
+    "howToSearch": "Najprostszy łup na start: na kamienistej plaży wypatruj najbielszych kamyków - to prawie zawsze kwarc. Zbieraj mokre, przy samej wodzie, bo wtedy najładniej błyszczą. Spróbuj znaleźć jeden całkiem przezroczysty - to wersja pro. W ciemności potrzyj dwa kwarce o siebie i patrz, co się stanie!",
+    "funFact": "Dwa kawałki kwarcu pocierane mocno o siebie w ciemności świecą pomarańczowym blaskiem - to triboluminescencja. Działa nawet z mokrymi kamieniami!",
+    "regions": [
+      "baltyk-pomorze",
+      "cala-polska"
+    ],
+    "image": {
+      "file": "/images/stones/kwarc-mleczny.jpg",
+      "author": "ANBARASU THIRAVIYAM",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Quartz_pebble_2.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "granit-rapakiwi",
+    "name": "Granit rapakiwi",
+    "nameLatin": "Rapakivi granite",
+    "category": "skala",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Kamień-przybysz z Wysp Alandzkich w Finlandii! Poznasz go po wielkich, okrągłych oczach: różowe kule skalenia otoczone jaśniejszą zieloną lub szarą obwódką, jak sadzone jajka w kamieniu. Przyjechał do Polski na grzbiecie lodowca grubego na kilometry. Ma jakieś 1,5 miliarda lat - to jeden z najstarszych kamieni, jakie weźmiesz do ręki.",
+    "whereInPoland": "Plaże i klify Bałtyku (np. okolice Kołobrzegu, Orłowa, Rozewia), pola i moreny na Pomorzu, Kaszubach, Warmii i Mazurach. Wszędzie tam, gdzie lodowiec zostawił swoje głazy.",
+    "howToSearch": "Szukaj wśród większych, różowawych otoczaków na plaży albo na polach po orce i przy żwirowniach. Klucz to okrągłe owale skalenia z obwódką - jak je zobaczysz, masz rapakiwi. Polej kamień wodą, wtedy oczka widać najlepiej. Świetnie poluje się też na pryzmy kamieni zebranych przez rolników na skraju pól.",
+    "funFact": "Rapakiwi znaczy po fińsku zgniły kamień, bo u siebie w Finlandii ta skała kruszy się i rozpada. Te, które dojechały do Polski, to twardziele, którzy przetrwali podróż lodowcem!",
+    "regions": [
+      "baltyk-pomorze"
+    ],
+    "image": {
+      "file": "/images/stones/granit-rapakiwi.jpg",
+      "author": "Piotr Sosnowski",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rapa_kivi1.JPG",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "porfir-baltycki",
+    "name": "Porfir bałtycki",
+    "nameLatin": "Baltic quartz porphyry",
+    "category": "skala",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Ceglastoczerwony lub brunatny kamień z niespodzianką: w gładkiej, zbitej masie tkwią małe jasne kryształki skalenia i szare, błyszczące oczka kwarcu - jak rodzynki w cieście. To zastygła lawa z dna dzisiejszego Bałtyku i okolic Wysp Alandzkich. Lodowiec rozwiózł ją po całej północnej Polsce.",
+    "whereInPoland": "Kamieniste plaże Bałtyku, klify (Orłowo, Rozewie, Wolin), moreny i pola Pomorza, Warmii i Mazur. Geolodzy używają go jako eratyka przewodniego - kamienia-wskazówki, skąd przyszedł lodowiec.",
+    "howToSearch": "Na plaży wypatruj czerwonych i ceglastych otoczaków, a potem przyjrzyj się z bliska: jeśli w jednolitym tle widzisz drobne jaśniejsze kryształki, masz porfir. Lupa bardzo pomaga. Mokre kamienie pokazują wzór dużo wyraźniej, więc szukaj przy linii wody albo zabierz butelkę wody do polewania.",
+    "funFact": "Porfiry bałtyckie to jak bilety lotnicze lodowca - geolodzy poznają po nich, którędy i skąd lodowiec przywędrował. Twój kamyk przejechał na lodzie ponad 500 kilometrów!",
+    "regions": [
+      "baltyk-pomorze"
+    ],
+    "image": {
+      "file": "/images/stones/porfir-baltycki.jpg",
+      "author": "Stadtmuseum Berlin",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:StadtmuseumBerlin_GeologischeSammlung_SM-2014-1824.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "gnejs-narzutowy",
+    "name": "Gnejs narzutowy",
+    "nameLatin": "Gneiss (erratic)",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Kamień w paski! Gnejs wygląda jak granit, który ktoś rozprasował i pofalował - ma jasne i ciemne smugi, czasem powyginane w esy-floresy. Te wzory powstały głęboko pod ziemią, gdzie skała była ściskana i podgrzewana jak plastelina. Niektóre gnejsy ze Skandynawii mają prawie 2 miliardy lat - są starsze niż jakiekolwiek zwierzę na Ziemi.",
+    "whereInPoland": "Wszędzie na niżu polodowcowym: plaże Bałtyku, pola i drogi polne Pomorza, Kaszub, Mazur, żwirownie. Co trzeci-czwarty większy otoczak na plaży to granit albo gnejs ze Skandynawii.",
+    "howToSearch": "Bierz do ręki większe otoczaki i szukaj pasków: jasne i ciemne warstwy ułożone na przemian to znak rozpoznawczy gnejsu. Najpiękniejsze są te z powyginanymi, falującymi smugami. Zmocz kamień - paski wyskoczą jak po włączeniu kontrastu. Idealny kamień na start kolekcji, bo każdy gnejs ma inny wzór.",
+    "funFact": "Wyginanie pasków w gnejsie działo się na głębokości kilkunastu kilometrów pod ziemią, w temperaturze ponad 600 stopni. Trzymasz w ręku kamień, który był kiedyś miękki jak ciasto!",
+    "regions": [
+      "baltyk-pomorze",
+      "cala-polska"
+    ],
+    "image": {
+      "file": "/images/stones/gnejs-narzutowy.jpg",
+      "author": "Hannes Grobe/AWI",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gneis-geschiebe_hg.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "piaskowiec-otoczak",
+    "name": "Piaskowiec (otoczak)",
+    "nameLatin": "Sandstone",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Kamień zrobiony z piasku - serio! Miliony ziarenek piasku skleiły się przez miliony lat w twardą skałę. Poznasz go po szorstkiej powierzchni jak papier ścierny i po tym, że widać w nim pojedyncze ziarnka. Bywa żółty, rdzawy, szary albo czerwonawy. Czasem na powierzchni widać warstwy - jak słoje w drzewie, tylko z dawnych plaż i pustyń.",
+    "whereInPoland": "Plaże Bałtyku, brzegi jezior, żwirownie i pola całej północnej Polski - przyjechał z lodowcem ze Skandynawii i z dna Bałtyku.",
+    "howToSearch": "Przesuń palcem po kamieniu: jeśli jest szorstki jak papier ścierny i widać ziarenka piasku, to piaskowiec. Porównaj go z gładkim krzemieniem - od razu poczujesz różnicę. Szukaj okazów z widocznymi warstwami albo takich, które barwią palce na rdzawo - to rdza z prawdziwego żelaza w skale.",
+    "funFact": "Niektóre piaskowce narzutowe to dawne dno morza sprzed 500 milionów lat. Ziarnka piasku w twoim kamieniu mogły być kiedyś plażą, po której łaziły trylobity!",
+    "regions": [
+      "baltyk-pomorze",
+      "cala-polska"
+    ],
+    "image": {
+      "file": "/images/stones/piaskowiec-otoczak.jpg",
+      "author": "Darla Sondrol",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Berea_Sandstone_(GeoDIL_number_-_236).jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "kurzy-bog",
+    "name": "Kurzy bóg (kamień z dziurką)",
+    "nameLatin": "Hag stone (holed stone)",
+    "category": "skala",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Kamień z naturalną dziurką na wylot - morze wierciło ją latami, kręcąc mniejszym kamykiem lub piaskiem w zagłębieniu, czasem pomagały skałotoczne małże. Dawni Słowianie wierzyli, że taki kamień przynosi szczęście i chroni dom, a zawieszony w kurniku pilnował kur - stąd nazwa. Po angielsku to hag stone, czyli kamień wiedźmy.",
+    "whereInPoland": "Kamieniste plaże całego Bałtyku - im więcej kamyków i fal, tym lepiej. Dobre są odcinki klifowe (Orłowo, Jastrzębia Góra, Wolin) i plaże po sztormach. Trafia się też na żwirowych brzegach jezior.",
+    "howToSearch": "Chodzi się po kamienistym pasie plaży i patrzy pod nogi - dziurki nie da się przewidzieć, trzeba mieć sokoli wzrok i cierpliwość. Najlepiej szukać po sztormie, gdy morze przerzuci kamienie. Zasada gry: liczy się tylko dziurka na wylot, wypłukana przez wodę! Według legendy działa tylko ten, którego znajdziesz sam.",
+    "funFact": "Stara legenda mówi, że patrząc przez dziurkę w kurzym bogu, można zobaczyć rzeczy niewidzialne dla innych. Sprawdźcie koniecznie - przez dziurkę świetnie wygląda zachód słońca nad morzem.",
+    "regions": [
+      "baltyk-pomorze"
+    ],
+    "image": {
+      "file": "/images/stones/kurzy-bog.jpg",
+      "author": "Ansgar Koreng",
+      "license": "CC BY-SA 3.0 de",
+      "source": "https://commons.wikimedia.org/wiki/File:Hühnergott,_150615,_ako.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "belemnit-czarci-palec",
+    "name": "Belemnit (czarci palec)",
+    "nameLatin": "Belemnite rostrum",
+    "category": "skamielina",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Bursztynowo-brązowy kamyk w kształcie naboju lub palca to skamieniała część dawnego zwierzęcia! Belemnity były podobne do kałamarnic i śmigały w morzach, gdy po lądzie chodziły dinozaury. To, co znajdujesz, to ich twardy wewnętrzny szkielet zwany rostrum. Dawniej ludzie myśleli, że to skamieniałe pioruny albo palce diabła - stąd ludowa nazwa czarci palec.",
+    "whereInPoland": "Plaże Bałtyku, zwłaszcza odcinki z drobnym żwirkiem (okolice Trójmiasta: Orłowo, Redłowo, rejon Rozewia), a także żwirownie na Pomorzu i polne drogi żwirowe na całym niżu.",
+    "howToSearch": "Szukaj wśród DROBNYCH kamyków przy samej linii wody - mokre rostra belemnitów prześwitują w słońcu na bursztynowo i właśnie po tym blasku się je wypatruje. Klęknij, patrz pod światło i przeszukuj żwirek garściami. Cylindryczny kształt z ostrym czubkiem nie pasuje do żadnego zwykłego kamyka.",
+    "funFact": "Belemnit wygląda jak bursztyn, ale jest zimny i ciężki - to kalcyt, nie żywica. Zwierzak, po którym został, miał ramiona z haczykami i strzykał atramentem jak dzisiejsza kałamarnica!",
+    "regions": [
+      "baltyk-pomorze",
+      "cala-polska",
+      "jura-krakowska",
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/belemnit-czarci-palec.jpg",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Belemnitella_americana_(fossil_belemnites)_(Cretaceous;_New_Jersey,_USA)_(49103465241).jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "wapien-narzutowy-koralowce",
+    "name": "Wapień narzutowy ze skamieniałościami",
+    "nameLatin": "Fossiliferous limestone erratic (Silurian/Ordovician)",
+    "category": "skamielina",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Szary, niepozorny kamień, który jest podwodnym zoo sprzed 450 milionów lat! W wapieniach przywleczonych przez lodowiec z dna Bałtyku siedzą skamieniałe koralowce o wzorze plastra miodu lub łańcuszków, muszelki ramienionogów, a czasem łodziki - krewniacy ośmiornic w prostych muszlach jak rożek loda. Wystarczy nauczyć się patrzeć.",
+    "whereInPoland": "Plaże Trójmiasta (Gdynia Orłowo, Redłowo), rejon Rozewia, plaże Wolina, żwirownie i wykopy na całym Pomorzu. PIG potwierdza: bałtyckie plaże są pełne sylurskich i ordowickich wapieni ze Skandynawii.",
+    "howToSearch": "Bierz do ręki szare, matowe kamienie (nie błyszczące granity - w nich skamieniałości nie ma!) i oglądaj mokre. Szukaj regularnych wzorków: siateczka plastra miodu to koralowiec Favosites, łańcuszki to Catenipora, żeberkowane muszelki to ramienionogi. Lupa zamienia zwykły spacer w wyprawę paleontologiczną.",
+    "funFact": "W jednym takim kamieniu potrafią być setki maleńkich skamieniałych pancerzyków małżoraczków. A na plażach Bałtyku znajdowano nawet skamieniałe zęby rekinów z czasów kredy - to dopiero trofeum!",
+    "regions": [
+      "baltyk-pomorze"
+    ],
+    "image": {
+      "file": "/images/stones/wapien-narzutowy-koralowce.jpg",
+      "author": "Ra'ike",
+      "license": "CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Koralle_(Anthozoa)_Favosites_-_Silur_-_Gotland.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "agat-ploczki",
+    "name": "Agat",
+    "nameLatin": "Agate",
+    "category": "mineral",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Z zewnątrz wygląda jak zwykły szary kamień, ale gdy go przetniesz - bum! W środku kolorowe pierścienie ułożone jak słoje drzewa, czasem z kryształkami w środku. Agaty powstały miliony lat temu w bąblach gazu w lawie wulkanu. Każdy agat ma inny wzór - nie ma dwóch takich samych na świecie.",
+    "whereInPoland": "Pogórze Kaczawskie koło Lwówka Śląskiego: słynne Pola Agatowe w Płóczkach Górnych (pas ok. 1 km długości), a także okolice Nowego Kościoła i stary kamieniołom w Lubiechowej koło Świerzawy.",
+    "howToSearch": "Najlepiej jechać na Lwóweckie Lato Agatowe (lipiec) - wtedy organizują legalne kopanie na polach agatowych w Płóczkach Górnych, łopaty w dłoń i kopiesz jak na wykopkach. Poza imprezą chodź po zaoranych polach po deszczu i szukaj okrągłych, ciężkich 'kartofli' z chropowatą skórką - agat jest cięższy od zwykłego kamienia tej samej wielkości. Stuknij młotkiem albo zabierz do domu i przetnij.",
+    "funFact": "Agaty z Płóczek Górnych słyną na całą Europę z wyjątkowo ostrych wzorów i kontrastowych kolorów - kolekcjonerzy z Niemiec i Czech przyjeżdżają tu specjalnie po nie.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/agat-ploczki.jpg",
+      "author": "Robert Niedziwiedzki",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Agate_from_P%C5%82%C3%B3czki_G%C3%B3rne_RN3.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "ametyst-karkonosze",
+    "name": "Ametyst",
+    "nameLatin": "Amethyst",
+    "category": "mineral",
+    "rarity": "rzadki",
+    "points": 25,
+    "description": "Fioletowy brat kwarcu - od bladego liliowego po głęboki fiolet. Kolor zawdzięcza odrobinie żelaza i promieniowaniu skał, które działało na niego przez miliony lat jak naturalna lampa UV. Starożytni Grecy wierzyli, że chroni przed zatruciem. W Sudetach siedzi w żyłach kwarcowych przecinających granit.",
+    "whereInPoland": "Okolice Szklarskiej Poręby - najbogatsze złoża w Polsce (rejon Hali Szrenickiej i Czeskiej Ścieżki, Złoty Potok), Nowy Kościół na Pogórzu Kaczawskim oraz hałdy starej kopalni w Kletnie w Masywie Śnieżnika.",
+    "howToSearch": "Wybierz się na szlaki wokół Szklarskiej Poręby po dużym deszczu - woda wypłukuje grunt i odsłania kawałki żył kwarcowych. Patrz pod nogi na ścieżkach i w korytach potoków: szukaj białych kawałków kwarcu z fioletowym odcieniem. W Kletnie przeszukuj hałdy przy starej kopalni uranu - to legalne i popularne miejsce rodzinnych poszukiwań.",
+    "funFact": "Według legendy złóż ametystów w Karkonoszach strzeże Duch Gór - Liczyrzepa. Ponoć zamienia chciwych poszukiwaczy w kamienie, ale dzieciom pozwala znajdować.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/ametyst-karkonosze.jpg",
+      "author": "W.carter",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Raw_amethyst_crystals_1.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "krysztal-gorski",
+    "name": "Kryształ górski",
+    "nameLatin": "Rock crystal (quartz)",
+    "category": "mineral",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Przezroczysty jak szkło kwarc z idealnie sześciobocznymi słupkami zakończonymi szpicem. Wygląda, jakby ktoś go wyszlifował, a to czysta robota natury - kryształ rósł powoli w pustce skalnej, dokładając atom po atomie. Dawniej ludzie myśleli, że to lód zamarznięty tak mocno, że już nigdy nie odtaje.",
+    "whereInPoland": "Cały masyw granitowy Karkonoszy: okolice Szklarskiej Poręby, Karpacza i Kowar. Także Góry Izerskie (potoki i okolice Starej Kamienicy) oraz hałdy w Kletnie.",
+    "howToSearch": "Przeszukuj żwir w górskich potokach wokół Szklarskiej Poręby - przezroczyste kryształki błyszczą w wodzie w słoneczny dzień. Dobre są też drogi leśne świeżo wysypane miejscowym tłuczniem i wykroty po wywróconych drzewach. Szukaj białych żył kwarcu w skałach - przy nich czasem siedzą wykształcone kryształki.",
+    "funFact": "Szklarska Poręba nazywa się Mineralogiczną Stolicą Polski - od średniowiecza działali tu Walonowie, tajemniczy poszukiwacze skarbów, którzy zostawiali na skałach sekretne znaki.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/krysztal-gorski.jpg",
+      "author": "Robert M. Lavinsky",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Quartz-153471.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "kwarc-dymny-morion",
+    "name": "Kwarc dymny i morion",
+    "nameLatin": "Smoky quartz / morion",
+    "category": "mineral",
+    "rarity": "rzadki",
+    "points": 25,
+    "description": "Kwarc, który wygląda, jakby ktoś go uwędził - od jasnobrązowego 'dymu' po całkiem czarny morion. Pociemniał od naturalnego promieniowania granitu, w którym rósł przez miliony lat. W okolicach Strzegomia kryształy moriony dorastały nawet do kilkudziesięciu centymetrów - prawdziwe czarne miecze.",
+    "whereInPoland": "Masyw granitowy Strzegom-Sobótka: okolice Strzegomia i Żółkiewki, gdzie granit kryje gniazda pegmatytów z 'ogródkami skalnymi' pełnymi kryształów. Mniejsze okazy też w Karkonoszach.",
+    "howToSearch": "Uwaga: czynne kamieniołomy w Strzegomiu to teren zakazany - wstęp tylko na zorganizowane wycieczki geologiczne za zgodą kopalni (warto pytać, czasem się da!). Amatorsko przeszukuj stare zwałowiska i pola wokół Strzegomia oraz drogi utwardzone miejscowym granitem - po deszczu błyszczą tam kawałki dymnego kwarcu i skalenia.",
+    "funFact": "W strzegomskich pegmatytach opisano około stu różnych minerałów - to jeden z najciekawszych rejonów mineralogicznych świata, a strzegomski granit leży m.in. w nawierzchni przed Pałacem Kultury.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/kwarc-dymny-morion.jpg",
+      "author": "Mauro Cateb",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Morion_smoky_quartz.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "nefryt-jordanow",
+    "name": "Nefryt",
+    "nameLatin": "Nephrite jade",
+    "category": "skala",
+    "rarity": "legendarny",
+    "points": 100,
+    "description": "Polski kuzyn słynnego jadeitu! Ciemnozielony, gładki i tak twardy oraz zbity, że trudniej go rozbić niż stal - jego włókna są splecione jak filc. Ludzie epoki kamienia robili z niego topory już 5000 lat temu. Jordanów Śląski to jedyne dobrze udokumentowane złoże nefrytu w Polsce.",
+    "whereInPoland": "Jordanów Śląski i Nasławice koło Sobótki (masyw serpentynitowy Gogołów-Jordanów na Przedgórzu Sudeckim), także okolice Złotego Stoku.",
+    "howToSearch": "Przeszukuj pola i miedze wokół Jordanowa Śląskiego i Nasławic - po orce i deszczu wypatruj ciemnozielonych, bardzo ciężkich i gładkich kamieni, które nie dają się zarysować nożem. Czynny kamieniołom w Nasławicach zwiedzisz tylko na zorganizowanych warsztatach geologicznych - tam szanse są największe. Prawdziwy nefryt przy krawędzi prześwituje na zielono pod latarką.",
+    "funFact": "Neolityczni rzemieślnicy z okolic Jordanowa prowadzili jedną z najstarszych 'kopalń' w Europie - ich nefrytowe topory archeolodzy znajdują setki kilometrów od Śląska.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/nefryt-jordanow.jpg",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Green_nephrite_jade_ventifact_(Precambrian;_Crooks_Mountain,_Fremont_County,_Wyoming,_USA)_1_(15172681202).jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "chryzopraz-szklary",
+    "name": "Chryzopraz",
+    "nameLatin": "Chrysoprase",
+    "category": "mineral",
+    "rarity": "bardzo-rzadki",
+    "points": 50,
+    "description": "Jabłkowozielony kamień szlachetny, nazywany 'dolnośląskim zielonym złotem'. To chalcedon zabarwiony niklem na soczystą zieleń - im bardziej zielony, tym cenniejszy. W XVIII wieku zdobił pałace i korony, a najpiękniejsze okazy na świecie pochodziły właśnie ze Szklar koło Ząbkowic Śląskich.",
+    "whereInPoland": "Szklary koło Ząbkowic Śląskich - stara odkrywkowa kopalnia niklu i jej okolice. Drobne wystąpienia także w Górach Izerskich.",
+    "howToSearch": "W Szklarach działa centrum geoturystyczne organizujące poszukiwania w dawnej kopalni (płatne, ale legalne i z przewodnikiem - polecane!). Na polach i drogach wokół wsi wypatruj po deszczu zielonkawych, woskowo błyszczących odłamków. Dziś trafiają się głównie małe kawałki - ale nawet okruch chryzoprazu to świetne trofeum.",
+    "funFact": "Król pruski Fryderyk Wielki tak kochał chryzopraz ze Szklar, że kazał nim wyłożyć ściany komnaty w pałacu Sanssouci w Poczdamie.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/chryzopraz-szklary.jpg",
+      "author": "Lech Darski",
+      "license": "CC BY 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Chryzopraz_-_Szklary,_Dolny_%C5%9Al%C4%85sk,_Polska.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "jaspis-kaczawski",
+    "name": "Jaspis",
+    "nameLatin": "Jasper",
+    "category": "mineral",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Nieprzezroczysty, kolorowy krzemień wulkanicznych pogórzy - czerwony, brunatny, żółty, czasem wielobarwny jak marmurkowe ciasto. Kolory to zasługa domieszek żelaza. Twardy i zbity, po oszlifowaniu błyszczy jak cukierek. Często występuje razem z agatami, więc szukasz dwóch skarbów naraz.",
+    "whereInPoland": "Pogórze Kaczawskie - pola wokół Płóczek Górnych i Nowego Kościoła, okolice Lubiechowej i Świerzawy, wszędzie tam, gdzie odsłaniają się stare skały wulkaniczne.",
+    "howToSearch": "Chodź po zaoranych polach na Pogórzu Kaczawskim po deszczu - mokre jaspisy odznaczają się kolorem od szarej ziemi. Szukaj matowych, ciężkich kamieni o ostrym, muszlowym przełamie w kolorach rdzy i cegły. Sprawdzaj też żwir w potokach. Bonus: tam gdzie jaspis, tam często i agat.",
+    "funFact": "Jaspis i agat to właściwie rodzeństwo - oba są odmianami chalcedonu, tylko jaspis jest 'zapchany' domieszkami tak mocno, że nie przepuszcza światła.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/jaspis-kaczawski.jpg",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Tabu_Tabu_Jasper_(South_Africa)_(41889473312).jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "serpentynit-jordanow",
+    "name": "Serpentynit",
+    "nameLatin": "Serpentinite",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Zielona skała w cętki i smugi, wyglądająca jak skóra węża - stąd nazwa, od łacińskiego 'serpens', czyli wąż. Powstała z przeobrażenia skał z głębi Ziemi, z płaszcza naszej planety! Bywa ciemnozielona, oliwkowa albo prawie czarna, często z błyszczącymi żyłkami. Daje się łatwo zarysować nożem.",
+    "whereInPoland": "Masyw Gogołów-Jordanów na Przedgórzu Sudeckim (największy masyw serpentynitowy w Polsce, ok. 25 km długości) - pola wokół Jordanowa Śląskiego, Nasławic i Sobótki, a także Góry Sowie i okolice Ząbkowic.",
+    "howToSearch": "Najprostszy łup na start: pola, miedze i polne drogi wokół Jordanowa Śląskiego i Ślęży są usiane zielonymi kamieniami. Zbierz kilka, umyj w wodzie - mokry serpentynit pokazuje piękny wężowy deseń. Porównuj odcienie: znajdziesz całą paletę zieleni od jasnej po czarną.",
+    "funFact": "Serpentynit to skała 'z kosmosu Ziemi' - powstał z fragmentów płaszcza ziemskiego, który normalnie leży 30 kilometrów pod twoimi stopami. A w serpentynicie czasem ukrywa się nefryt.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/serpentynit-jordanow.jpg",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Serpentinite_(quarry_south_of_Roxbury,_Vermont,_USA)_1.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "malachit-azuryt-miedzianka",
+    "name": "Malachit i azuryt",
+    "nameLatin": "Malachite and azurite",
+    "category": "mineral",
+    "rarity": "rzadki",
+    "points": 25,
+    "description": "Kolorowy duet z rudy miedzi: malachit jest soczysto zielony, a azuryt niebieski jak atrament. Często rosną razem na jednym kamieniu - wtedy masz zielono-niebieskie dzieło sztuki. Powstają tam, gdzie woda i powietrze przez wieki 'rdzewiły' rudę miedzi, tylko zamiast brązowej rdzy robiły kolorową.",
+    "whereInPoland": "Miedzianka i Ciechanowice w Rudawach Janowickich - dziesiątki starych hałd po kopalniach miedzi działających od XII wieku. Też okolice Mniszkowa.",
+    "howToSearch": "Idź na stare hałdy wokół Miedzianki (legalne miejsce, znane wśród kolekcjonerów) i przewracaj kamienie - szukaj zielonych i niebieskich nalotów na szarej skale. Zabierz butelkę wody: polej kamień, a kolory ożyją. Nie wchodź do żadnych sztolni ani dziur - wszystkie skarby leżą na powierzchni hałd.",
+    "funFact": "Miedzianka to miasto-widmo: po 700 latach górnictwa miasteczko zapadło się i zostało rozebrane, a dziś stoi tam ledwie kilka domów, browar i... hałdy pełne minerałów.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/malachit-azuryt-miedzianka.jpg",
+      "author": "Robert M. Lavinsky",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Malachite-Azurite-176277.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "piryt-wiesciszowice",
+    "name": "Piryt",
+    "nameLatin": "Pyrite",
+    "category": "mineral",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Złoto głupców! Błyszczy jak prawdziwe złoto i przez wieki nabierał poszukiwaczy. Tworzy idealne sześcienne kryształki - kostki tak równe, jakby ktoś je wyciął maszynką. To siarczek żelaza: uderzony o krzemień daje iskry, stąd jego nazwa od greckiego 'pyr' - ogień.",
+    "whereInPoland": "Wieściszowice w Rudawach Janowickich - łupki wokół słynnych Kolorowych Jeziorek, czyli zalanych wyrobisk starej kopalni pirytu. Drobny piryt też na hałdach Miedzianki i w łupkach Gór Izerskich.",
+    "howToSearch": "Połącz z wycieczką nad Kolorowe Jeziorka (super atrakcja!): po drodze i wokół jeziorek przeglądaj szare łupki - w słońcu widać w nich złociste błyski i drobne kostki pirytu. Łupek z pirytem rozpoznasz po metalicznym połysku punkcików. Pamiętaj: w samym rezerwacie tylko patrzymy, zbieramy poza nim na starych zwałach.",
+    "funFact": "Kolorowe Jeziorka - purpurowe, błękitne i zielone - zawdzięczają swoje szalone barwy właśnie rozkładającemu się pirytowi, z którego kiedyś robiono kwas siarkowy.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/piryt-wiesciszowice.jpg",
+      "author": "Robert M. Lavinsky",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pyrite-165198.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "granat-almandyn-izery",
+    "name": "Granat (almandyn)",
+    "nameLatin": "Almandine garnet",
+    "category": "mineral",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Ciemnoczerwone kuleczki wrośnięte w srebrzyście błyszczącą skałę - wyglądają jak pestki granatu (owocu!) zatopione w skale, stąd nazwa. Almandyn rósł głęboko pod ziemią, gdy skały były ściskane i podgrzewane jak w gigantycznej prasie. Kryształki mają zwykle kilka milimetrów, ale są idealnie okrągłe.",
+    "whereInPoland": "Góry Izerskie - rejon Gierczyn-Krobica-Przecznica i łupki łyszczykowe Grzbietu Kamienickiego, stare hałdy po kopalniach cyny. Drobne granaty też w potokach izerskich.",
+    "howToSearch": "Szukaj w Górach Izerskich błyszczących, srebrzystych łupków łyszczykowych - na starych hałdach koło Krobicy i Gierczyna leżą ich całe sterty. Obracaj kawałki pod słońce: granaty wystają jak czerwone krople. W domu wyszoruj łupek szczotką drucianą, a granaty pięknie wyskoczą z tła.",
+    "funFact": "W Krobicy zwiedzisz sztolnię św. Jana - podziemną trasę po kopalni cyny sprzed 500 lat, a granaty w tych łupkach to świadkowie zderzenia kontynentów.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/granat-almandyn-izery.jpg",
+      "author": "Darla Sondrol",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Almandine_in_schist_(GeoDIL_number_-_309).jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "fluoryt-kletno",
+    "name": "Fluoryt",
+    "nameLatin": "Fluorite",
+    "category": "mineral",
+    "rarity": "rzadki",
+    "points": 25,
+    "description": "Fioletowy klejnot z hałd! Fluoryt z Kletna ma intensywny fioletowy kolor, czasem prawie czarny, a bywa też zielony i bezbarwny. Tworzy kostki i ośmiościany. Jego supermoc: pod lampą UV świeci na niebiesko - zjawisko fluorescencji nazwano właśnie od fluorytu.",
+    "whereInPoland": "Kletno w Masywie Śnieżnika - hałdy przy starej kopalni fluorytu i uranu (obok Jaskini Niedźwiedziej). Piękne fluoryty siedzą też w pegmatytach Strzegomia.",
+    "howToSearch": "Idealna wyprawa rodzinna: zwiedź podziemną trasę starej kopalni uranu w Kletnie, a potem przeszukaj hałdy wokół - to znane, legalne miejsce poszukiwań. Wypatruj fioletowych, szklisto błyszczących kawałków wśród białego kwarcu. Wieczorem sprawdź znaleziska latarką UV - prawdziwy fluoryt zaświeci!",
+    "funFact": "Fluoryt jest tak miękki, że zarysujesz go nożem, a topnieje łatwiej niż inne minerały - dlatego huty od wieków dodawały go do pieców, a nazwa pochodzi od łacińskiego 'fluere' - płynąć.",
+    "regions": [
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/fluoryt-kletno.jpg",
+      "author": "Robert M. Lavinsky",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Fluorite-131585.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "krzemien-pasiasty",
+    "name": "Krzemień pasiasty",
+    "nameLatin": "Banded flint (striped flint)",
+    "category": "skala",
+    "rarity": "rzadki",
+    "points": 25,
+    "description": "To najsłynniejszy polski kamień - występuje praktycznie tylko u nas, nigdzie indziej na świecie! Wygląda jak przekrojony tort z brązowo-szarymi słojami albo odcisk palca olbrzyma. Już 5000 lat temu ludzie kopali za nim głębokie szyby w Krzemionkach, żeby robić z niego siekierki. Dziś jubilerzy nazywają go polskim diamentem.",
+    "whereInPoland": "Tylko północno-wschodnie obrzeżenie Gór Świętokrzyskich: pas od Iłży przez Krzemionki Opatowskie i Ożarów po Zawichost. Sama kopalnia w Krzemionkach to rezerwat i muzeum UNESCO - tam się zwiedza, nie kopie!",
+    "howToSearch": "Najlepiej wiosną lub jesienią po orce: idź wzdłuż pól między Iłżą a Ożarowem i patrz pod nogi - krzemienie błyszczą po deszczu. Szukaj kamieni z jasną, białawą korą; pasy zobaczysz dopiero na przełamie. Pytaj rolników o zgodę na wejście na pole - zwykle się zgadzają, a czasem sami pokażą gdzie leżą najładniejsze.",
+    "funFact": "Kopalnia w Krzemionkach jest na liście światowego dziedzictwa UNESCO - neolityczni górnicy schodzili po krzemień szybami na głębokość 9 metrów, świecąc sobie łuczywami!",
+    "regions": [
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/krzemien-pasiasty.jpg",
+      "author": "Ra'ike",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Feuerstein_(Flint)_aus_Polen_-_Unterseite.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "krzemien-czekoladowy",
+    "name": "Krzemień czekoladowy",
+    "nameLatin": "Chocolate flint",
+    "category": "skala",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Brat krzemienia pasiastego - gładki, lśniący i w kolorze gorzkiej czekolady. Kiedy go rozbijesz, błyszczy jak polewa na torcie. Ludzie epoki kamienia uwielbiali go, bo daje superostre krawędzie - kopali za nim już 12 tysięcy lat temu, zanim ktokolwiek wymyślił koło!",
+    "whereInPoland": "Pas od Orońska i Wierzbicy (koło Szydłowca i Radomia) przez Iłżę po Gliniany koło Ożarowa, na północnym obrzeżeniu Gór Świętokrzyskich. Stare prehistoryczne kopalnie w Orońsku i Wierzbicy-Zele to zabytki - oglądamy, nie rozkopujemy.",
+    "howToSearch": "Pola orne i polne drogi wokół Orońska, Wierzbicy i Iłży - po orce i deszczu czekoladowe buły aż się proszą, żeby je podnieść. Szukaj kamieni z szarą korą; kolor czekolady widać na świeżym przełamie. Zaglądaj też do skarp polnych dróg i strumyków.",
+    "funFact": "Kopalnie krzemienia czekoladowego w Orońsku mają ponad 12 000 lat - to jedne z najstarszych kopalni w całej Europie!",
+    "regions": [
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/krzemien-czekoladowy.svg",
+      "author": "",
+      "license": "",
+      "source": "",
+      "placeholder": true
+    }
+  },
+  {
+    "id": "amonit",
+    "name": "Amonit",
+    "nameLatin": "Ammonite",
+    "category": "skamielina",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Skamieniała muszla morskiego głowonoga, zwinięta jak ślimak albo baranie rogi. Amonity pływały w ciepłym morzu jurajskim 160 milionów lat temu, kiedy po lądach chodziły dinozaury. Niektóre były małe jak moneta, inne wielkie jak koło od traktora. Znaleźć własnego amonita to jak dostać pocztówkę sprzed milionów lat.",
+    "whereInPoland": "Cała Jura Krakowsko-Częstochowska: okolice Mstowa pod Częstochową, Włodowic koło Zawiercia, Ogrodzieńca i Olkusza. Najwięcej w nieczynnych kamieniołomach wapienia i na polach z wapiennym rumoszem.",
+    "howToSearch": "Wybierz się do nieczynnego kamieniołomu wapienia (np. okolice Włodowic czy Mstowa) i przeglądaj luźne kamienie u podnóża ścian - nie wspinaj się na skały! Weź młotek geologiczny i okulary ochronne: ostrożnie rozbijaj płaskie wapienne płytki, amonity często siedzą w środku. Odciski muszli zdarzają się nawet w kamieniach na polnych drogach.",
+    "funFact": "Amonity to kuzyni dzisiejszych ośmiornic i kałamarnic - zwierzę mieszkało tylko w ostatniej komorze muszli, a reszta służyła jak ponton do pływania.",
+    "regions": [
+      "jura-krakowska"
+    ],
+    "image": {
+      "file": "/images/stones/amonit.jpg",
+      "author": "Dlloyd",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ammonite_Asteroceras.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "trylobit",
+    "name": "Trylobit",
+    "nameLatin": "Trilobite",
+    "category": "skamielina",
+    "rarity": "legendarny",
+    "points": 100,
+    "description": "Trylobit to pradawny morski stawonóg w pancerzu z trzech części - taki opancerzony prapradziadek kraba, starszy od dinozaurów o 300 milionów lat! W Górach Świętokrzyskich leżą najstarsze skamieniałości w Polsce, z kambru sprzed pół miliarda lat. Cały trylobit to trofeum życia - częściej trafia się fragment pancerza albo odcisk.",
+    "whereInPoland": "Góry Świętokrzyskie: kambryjskie łupki i piaskowce w rejonie Łysogór i okolic Ociesęk czy Kotuszowa; trylobity dewońskie w okolicach Kielc. Słynny kamieniołom Wiśniówka jest czynny - wstęp zabroniony! Rezerwaty (Kadzielnia, Wietrznia) - tylko oglądamy.",
+    "howToSearch": "Szukaj ciemnych łupków i mułowców: skarpy dróg, strumyki, rumosz na polach u podnóża Łysogór. Łupek delikatnie rozdzielaj wzdłuż warstw scyzorykiem lub młotkiem - skamieniałości leżą między kartkami tej kamiennej książki. Nastaw się na fragmenty i odciski, a każdy znaleziony kawałek pancerza świętuj jak medal olimpijski.",
+    "funFact": "Trylobity jako jedne z pierwszych zwierząt na Ziemi miały oczy - i to złożone, jak owady, tylko soczewki miały zrobione z kryształków kalcytu, czyli z kamienia!",
+    "regions": [
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/trylobit.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Trilobites_(Elrathia_kingii),_Wheeler_Shale,_Utah,_Estados_Unidos,_2021-01-15,_DD_487-516_FS.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "koralowiec-dewonski",
+    "name": "Koralowiec dewoński",
+    "nameLatin": "Rugose coral (Devonian fossil coral)",
+    "category": "skamielina",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Trudno uwierzyć, ale 380 milionów lat temu na miejscu Kielc szumiało ciepłe, tropikalne morze pełne raf koralowych! Wzgórza Kadzielni i Karczówki to kawałki tamtej rafy. Skamieniały koralowiec wygląda jak kamienny róg albo plaster miodu odbity w wapieniu - prawdziwy kawałek prehistorycznych tropików w kieszeni.",
+    "whereInPoland": "Wapienie dewońskie wokół Kielc i Chęcin. UWAGA: Kadzielnia, Wietrznia i Ślichowice to rezerwaty przyrody - tam nie wolno nic zbierać ani kuć! Legalnie szukamy w kamieniach polnych i rumoszu wapiennym poza rezerwatami, np. na polach i drogach okolic Chęcin, Bolechowic czy Łagowa.",
+    "howToSearch": "Oglądaj wapienne kamienie na polach, miedzach i przy polnych drogach wokół Chęcin i Łagowa - koralowce widać jako wzorek z gwiazdek lub plastra miodu na zwietrzałej powierzchni. Zmocz kamień wodą z butelki, wtedy skamieniałość wyskakuje jak wywołane zdjęcie. Do rezerwatów idź na wycieczkę z aparatem, nie z młotkiem.",
+    "funFact": "Marmur chęciński, którym wyłożono pałace w Warszawie i na Wawelu, to tak naprawdę dewoński wapień pełen skamieniałości - w starych posadzkach też można wypatrzeć koralowce!",
+    "regions": [
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/koralowiec-dewonski.jpg",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Silicified_rugose_coral_(Columbus_Limestone,_Middle_Devonian;_Mt._Tabor,_Ohio,_USA).jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "kalcyt",
+    "name": "Kalcyt",
+    "nameLatin": "Calcite",
+    "category": "mineral",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Kalcyt to kryształowy budulec wapieni - białe lub miodowe kryształki, które wypełniają szczeliny w skałach jak lukier pęknięcia w cieście. Czasem trafia się kawałek tak czysty, że prześwituje jak szybka. To minerał idealny na początek kolekcji, bo znajdziesz go niemal na każdej wyprawie.",
+    "whereInPoland": "Wszędzie tam, gdzie są wapienie: cała Jura Krakowsko-Częstochowska i Góry Świętokrzyskie (okolice Kielc i Chęcin słyną z żył kalcytowych, ale pamiętaj o rezerwatach). Najłatwiej w rumoszu nieczynnych kamieniołomów i na polach.",
+    "howToSearch": "W nieczynnym kamieniołomie wapienia przeglądaj luźne bloki: szukaj białych żyłek przecinających szary kamień. Rozbij taki kamień młotkiem (okulary!), a w środku mogą czekać błyszczące kryształki. Kalcyt poznasz po tym, że łatwo rysuje się scyzorykiem i pęka na równe romby.",
+    "funFact": "Przez czysty kryształ kalcytu (szpat islandzki) widać wszystko podwójnie - połóż go na napisie, a litery rozdwoją się jak za dotknięciem czarodziejskiej różdżki.",
+    "regions": [
+      "gory-swietokrzyskie",
+      "jura-krakowska"
+    ],
+    "image": {
+      "file": "/images/stones/kalcyt.jpg",
+      "author": "Robert M. Lavinsky",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Calcite-Quartz-166625.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "gips-selenit",
+    "name": "Gips selenit",
+    "nameLatin": "Selenite gypsum",
+    "category": "mineral",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Selenit to szklista, przezroczysta odmiana gipsu, nazwana od greckiej bogini Księżyca - bo lśni srebrzyście jak światło Księżyca. Na Ponidziu całe ściany skalne zbudowane są z wielkich kryształów gipsu, które wyrosły na dnie słonego morza 13 milionów lat temu. Kryształy zrastają się tam parami w kształt jaskółczego ogona!",
+    "whereInPoland": "Ponidzie, na południe od Gór Świętokrzyskich: okolice Pińczowa i Buska-Zdroju - Gacki, Winiary, Siesławice, Skorocice. W Gackach znaleziono największy naturalny kryształ w Polsce. Rezerwat Skorocice i czynna kopalnia Leszcze są niedostępne - szukamy poza nimi.",
+    "howToSearch": "Jedź na Ponidzie i wypatruj gipsowych skałek przy drogach, np. między Starą Zagością a Winiarami - w słońcu ściany aż się skrzą. Luźne, błyszczące tabliczki selenitu zbieraj z osypisk pod skałkami, na miedzach i polach - nie kuj w ścianach. Selenit jest tak miękki, że zarysujesz go paznokciem - to test, że masz właściwy kamień.",
+    "funFact": "Kryształy gipsu z Niecki Nidziańskiej osiągają po kilka metrów długości - to jedne z największych kryształów gipsu na świecie, większe od dorosłego człowieka!",
+    "regions": [
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/gips-selenit.jpg",
+      "author": "Robert M. Lavinsky",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Gypsum-40657.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "galena",
+    "name": "Galena",
+    "nameLatin": "Galena (lead ore)",
+    "category": "mineral",
+    "rarity": "rzadki",
+    "points": 25,
+    "description": "Galena to ruda ołowiu i srebra - srebrzysty, błyszczący minerał, który pęka na idealne kostki, jakby ktoś go pociął nożem. Jest zaskakująco ciężka: mały kawałek waży w dłoni jak spory kamień. Wokół Olkusza kopano ją od średniowiecza i to z niej brało się srebro na monety polskich królów.",
+    "whereInPoland": "Rejon olkusko-bolesławski na Jurze (Olkusz, Bolesław, Bukowno) - stare hałdy pogórnicze w lasach, pozostałość po wiekach kopalnictwa rud. Świetna kolekcja do obejrzenia w Olkuszu. W Górach Świętokrzyskich galena trafia się na Miedziance, ale to rezerwat - zakaz zbierania.",
+    "howToSearch": "Wybierz się na stare, porośnięte lasem hałdy i warpie wokół Olkusza i Bolesławia - to pofalowane pagórki po dawnych szybikach. Przeglądaj kamienie na powierzchni i w wykrotach: galena zdradza się metalicznym błyskiem i zaskakującym ciężarem. Po znalezisku umyj ręce przed jedzeniem - to ruda ołowiu! Nie wchodź na teren czynnych zakładów ZGH Bolesław.",
+    "funFact": "Kostka galeny była sercem pierwszych radioodbiorników - tak zwanych radii kryształkowych. Dzieciaki sto lat temu słuchały radia przez kawałek tego minerału, bez prądu i baterii!",
+    "regions": [
+      "jura-krakowska",
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/galena.jpg",
+      "author": "Robert M. Lavinsky",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Galena-139277.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "wapien-jurajski",
+    "name": "Wapień jurajski z fauną",
+    "nameLatin": "Jurassic limestone with fossils (Oxfordian)",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Biały wapień, z którego zbudowane są słynne jurajskie ostańce, Maczuga Herkulesa i zamki Orlich Gniazd, to tak naprawdę skamieniałe dno morza sprzed 160 milionów lat. Powstał z gąbek, muszli i morskich szkieletów. Prawie każdy kawałek kryje jakąś niespodziankę: odcisk muszelki, gąbkę albo ramienionoga.",
+    "whereInPoland": "Cała Jura Krakowsko-Częstochowska, od Krakowa po Częstochowę: skałki, nieczynne kamieniołomy, pola i mury. Ostańce w parkach krajobrazowych i rezerwatach podziwiamy bez młotka - zbieramy tylko luźne kamienie z pól i rumoszu.",
+    "howToSearch": "To najprostszy łup każdej wyprawy na Jurę: przy każdej polnej drodze i na każdej miedzy leżą białe wapienne kamienie. Bierz je do ręki i oglądaj pod światło - szukaj okrągłych przekrojów gąbek, falistych muszelek i dziurek po skałotoczach. Zmoczony kamień pokazuje skamieniałości dużo wyraźniej.",
+    "funFact": "Z wapienia jurajskiego zbudowano krakowskie Sukiennice i mury Wawelu - w ich blokach do dziś można wypatrzeć jurajskie gąbki i muszle, więc polowanie na skamieniałości działa nawet w środku miasta!",
+    "regions": [
+      "jura-krakowska"
+    ],
+    "image": {
+      "file": "/images/stones/wapien-jurajski.jpg",
+      "author": "Wikipek",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Fossil_Sponge_Peronidella.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "piaskowiec-karpacki-hieroglify",
+    "name": "Piaskowiec karpacki z hieroglifami",
+    "nameLatin": "Carpathian flysch sandstone",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Główny budulec Beskidów - kamień, z którego są zrobione całe góry! Powstał z piasku, który miliony lat temu lawinami zsuwał się po dnie głębokiego morza. Na płaskich powierzchniach niektórych płyt znajdziesz dziwne wypukłe wzory zwane hieroglifami - to odciski śladów pełzających zwierząt i prądów morskich z dna oceanu sprzed ponad 50 milionów lat.",
+    "whereInPoland": "Całe Karpaty: Beskid Sądecki, Beskid Niski, Bieszczady, Gorce. Pełno go w korytach potoków górskich i na kamieńcach rzek: Dunajca, Popradu, Soły, Sanu, Wisłoki.",
+    "howToSearch": "Wybierz się nad górski potok lub na żwirowy brzeg Dunajca czy Sanu po opadnięciu wody. Szukaj płaskich, szarych płyt i obracaj je - hieroglify są zwykle na spodniej stronie warstwy. Bierz tylko 1-2 małe okazy na pamiątkę i pamiętaj, że w parkach narodowych (Pieniński, Bieszczadzki) zbierać nie wolno.",
+    "funFact": "Hieroglify na piaskowcach to jedne z najstarszych \"odcisków łap\" w Polsce - geolodzy czytają z nich, w którą stronę płynęły podmorskie lawiny błotne miliony lat temu.",
+    "regions": [
+      "karpaty-malopolska"
+    ],
+    "image": {
+      "file": "/images/stones/piaskowiec-karpacki-hieroglify.jpg",
+      "author": "Mikenorton",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Flute_casts.JPG",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "lupek-menilitowy-ryba",
+    "name": "Łupek menilitowy ze skamieniałą rybą",
+    "nameLatin": "Menilite shale fossil fish",
+    "category": "skamielina",
+    "rarity": "legendarny",
+    "points": 100,
+    "description": "Czarne, cienkie jak kartki książki łupki, które rozdziela się paznokciem albo scyzorykiem. Powstały na dnie oceanu Tetydy około 30 milionów lat temu, gdy przy dnie brakowało tlenu - dlatego martwe rybki nie zgniły, tylko zostały odciśnięte w skale jak w albumie. Znaleźć całą rybkę z kręgosłupem i ogonkiem to trofeum życia łowcy kamieni!",
+    "whereInPoland": "Beskid Niski i Bieszczady, najsłynniejsze miejsce to Ściana Olzy w Rudawce Rymanowskiej nad Wisłokiem koło Rymanowa - największa odkrywka łupków menilitowych w polskich Karpatach.",
+    "howToSearch": "Jedź do Rudawki Rymanowskiej i szukaj na kamieńcu Wisłoka pod Ścianą Olzy - przeglądaj luźne czarne płytki leżące w rzece i u podnóża skarpy (nie kuj w samej ścianie!). Rozwarstwiaj płytki cienkim nożem jak kartki książki i oglądaj każdą powierzchnię pod światło - szukaj srebrzystych łusek i cienkich ości. Po każdym deszczu rzeka odsłania świeże płytki.",
+    "funFact": "W łupkach menilitowych znajdowano już całe szkielety ryb z gatunków podobnych do dzisiejszych śledzi - a sama skała jest tak pełna ropy naftowej, że jej kawałek potrafi się palić!",
+    "regions": [
+      "karpaty-malopolska"
+    ],
+    "image": {
+      "file": "/images/stones/lupek-menilitowy-ryba.jpg",
+      "author": "Ghedoghedo",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Scopeloides_glarisianus_34_maf_olig_romania.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "skamieniale-drewno",
+    "name": "Skamieniałe drewno",
+    "nameLatin": "Petrified wood (silicified wood)",
+    "category": "skamielina",
+    "rarity": "rzadki",
+    "points": 25,
+    "description": "Kawałek drzewa, który zamienił się w kamień! Miliony lat temu pnie drzew zostały zasypane, a krzemionka z wody powolutku podmieniła drewno na twardy minerał - cząsteczka po cząsteczce. Efekt jest niesamowity: kamień, na którym widać słoje, sęki, a czasem nawet korę, jakby ktoś wczoraj uciął gałąź.",
+    "whereInPoland": "Najsłynniejsze: Roztocze - wieś Siedliska koło Tomaszowa Lubelskiego (tam jest muzeum i Szlak Skamieniałych Drzew). Poza tym okolice Krakowa i Tarnowa, rejon Kielc, a pojedyncze kawałki trafiają się w żwirowniach w całym pasie wyżyn.",
+    "howToSearch": "Na Roztoczu przejdź Szlak Skamieniałych Drzew w Siedliskach, a potem rozglądaj się po okolicznych polach po orce i przy polnych drogach - kawałki wyglądają jak drewienka, ale są zimne i ciężkie jak kamień. Sprawdzaj też hałdy żwiru w czynnych żwirowniach (za zgodą właściciela). Pukniesz dwoma kawałkami o siebie - skamieniałe drewno dźwięczy jak porcelana, zwykłe drewno stuka głucho.",
+    "funFact": "Drzewa ze skamieniałego lasu na Roztoczu rosły około 15-20 milionów lat temu - to krewniacy dzisiejszych cyprysów, a niektóre znalezione pnie ważą setki kilogramów.",
+    "regions": [
+      "karpaty-malopolska",
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/skamieniale-drewno.jpg",
+      "author": "Aliva Sahoo",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Petrified_Wood_Fossil_Specimen.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "andezyt-pieninski",
+    "name": "Andezyt pieniński (otoczak Dunajca)",
+    "nameLatin": "Andesite Pieniny",
+    "category": "skala",
+    "rarity": "rzadki",
+    "points": 25,
+    "description": "Pamiątka po wulkanach, które prawie wybuchły w Polsce! Kilkanaście milionów lat temu pod Pieninami magma wcisnęła się w skały, ale nie zdążyła wylać się jako lawa - zastygła pod ziemią jako ciemnoszary, twardy andezyt. To jedyna taka skała wulkaniczna w polskich Karpatach. Rzeki rozniosły jej kawałki jako gładkie, ciemne otoczaki.",
+    "whereInPoland": "Tylko okolice Pienin: góra Wdżar koło Kluszkowiec i Czorsztyna, okolice Szczawnicy (góra Jarmuta, potok Grajcarek) oraz kamieńce Dunajca poniżej - koło Krościenka i dalej w dół rzeki.",
+    "howToSearch": "Idź na żwirowy kamieniec Dunajca koło Krościenka lub nad potok Grajcarek w Szczawnicy (już poza granicą Pienińskiego Parku Narodowego - w parku zbierać nie wolno!). Wśród jasnych piaskowcowych otoczaków wypatruj ciemnoszarych, prawie czarnych kamieni z drobnymi jasnymi kropkami kryształów. Weź mały magnes - niektóre andezyty z Wdżaru lekko go przyciągają!",
+    "funFact": "Na górze Wdżar andezyt jest tak namagnesowany, że kompas wariuje i pokazuje północ w złą stronę - możecie to sprawdzić sami na szczycie!",
+    "regions": [
+      "karpaty-malopolska"
+    ],
+    "image": {
+      "file": "/images/stones/andezyt-pieninski.jpg",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Andesite_2013.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "granit-szary",
+    "name": "Granit szary (narzutniak)",
+    "nameLatin": "grey granite glacial erratic",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "To absolutny KRÓL polskich pól - najczęściej spotykany kamień, jaki znajdziesz na spacerze. Lodowiec przywlókł go ze Skandynawii ponad 10 tysięcy lat temu i porzucił na naszych polach. Jest twardy jak skała (bo to jest skała!), szary lub lekko różowawy, a jak przyjrzysz mu się z bliska, zobaczysz w nim ziarenka różnych minerałów - jasne, ciemne i przezroczyste, posklejane razem jak ziarnisty groch.",
+    "whereInPoland": "Cała Polska, ale najwięcej na północy (pas ostatniego zlodowacenia). Pola uprawne, pryzmy kamieni zbierane przez rolników, polne drogi, żwirownie.",
+    "howToSearch": "Idź wzdłuż zaoranego pola albo zajrzyj na kupę kamieni przy miedzy - rolnicy zbierają je z pól na pryzmy. Szukaj szarego, ziarnistego kamienia z wyraźnymi 'kropeczkami' różnych minerałów. Jest bardzo twardy - nie da się go zarysować gwoździem.",
+    "funFact": "Twój granit przypłynął na lodowej 'tratwie' aż ze Szwecji lub Finlandii - przebył setki kilometrów, zanim lodowiec stopniał i zostawił go na polskim polu.",
+    "regions": [
+      "cala-polska"
+    ],
+    "image": {
+      "file": "/images/stones/granit-szary.jpg",
+      "author": "Sisters.seamless",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Grey_granite_boulder_seamless_stone_surface_texture.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "bazalt",
+    "name": "Bazalt",
+    "nameLatin": "basalt volcanic rock",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Ciemna, prawie czarna skała, która kiedyś była gorącą lawą wulkanu! Jest gęsta, ciężka jak na swój rozmiar i bardzo, bardzo twarda. Czasem ma w sobie maleńkie dziurki - to ślady po pęcherzykach gazu, które uciekały z lawy, gdy zastygała. Najłatwiej spotkać ją jako szare-czarne kamienie na nasypach kolejowych.",
+    "whereInPoland": "Naturalnie na Dolnym Śląsku (okolice Lubania, Złotoryi, Jawora - dawne wulkany). Ale tłuczeń bazaltowy leży przy KAŻDEJ linii kolejowej i na wielu drogach w całej Polsce.",
+    "howToSearch": "Przejdź się wzdłuż torów kolejowych - te ostrokanciaste ciemne kamienie pod podkładami to często bazalt. Rozpoznasz go po ciemnej barwie, dużym ciężarze i tym, że jest bardzo twardy i ma drobne ziarno (bez widocznych kryształków jak granit).",
+    "funFact": "Z bazaltu robi się tłuczeń kolejowy właśnie dlatego, że jest tak twardy i odporny - pociągi jeżdżą po nim latami, a on się prawie nie ściera.",
+    "regions": [
+      "cala-polska",
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/bazalt.jpg",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Scoriaceous_basalt_(Fillmore_Craters,_Black_Rock_Desert,_MIllard_County,_Utah,_USA)_6.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "kwarcyt",
+    "name": "Kwarcyt",
+    "nameLatin": "quartzite pebble",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Jeden z najtwardszych kamieni, jakie znajdziesz na polu - bo to praktycznie sprasowany kwarc! Zwykle jasny: biały, szarawy, kremowy albo lekko różowy. Często ma gładką, jakby cukrową albo szklistą powierzchnię, a w słońcu delikatnie się mieni. Jest tak twardy, że gwóźdź się po nim ślizga i nic nie zarysuje.",
+    "whereInPoland": "Cała Polska w żwirze i na polach (jako narzutniak). Naturalne wystąpienia m.in. w Górach Świętokrzyskich (twardzielcowe wzgórza zbudowane z kwarcytu).",
+    "howToSearch": "Szukaj w żwirowniach i nad rzekami jasnego, mocno wygładzonego otoczaka. Test: spróbuj zarysować go gwoździem albo scyzorykiem - kwarcyt jest tak twardy, że to ON zarysuje metal, a nie odwrotnie. Często jest też lekko 'tłusty' albo szklisty w połysku.",
+    "funFact": "Najwyższe wzgórza Gór Świętokrzyskich, jak Łysica, są zbudowane z kwarcytu - przetrwały miliony lat wietrzenia właśnie dlatego, że ta skała jest tak odporna.",
+    "regions": [
+      "cala-polska",
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/kwarcyt.jpg",
+      "author": "Creator:Mike Davis",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Quartzite_with_jasper_pebbles_(GeoDIL_number_-_420).jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "piaskowiec-czerwony",
+    "name": "Piaskowiec czerwony (czerwieniec)",
+    "nameLatin": "red sandstone",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Ceglasto-czerwony albo rdzawy kamień, który wygląda jak zlepione ziarenka piasku - bo dokładnie tym jest! Czerwony kolor daje mu żelazo, takie samo, jakie rdzewieje w starych gwoździach. Jest miękki jak na kamień: można po nim potrzeć palcem i czasem zostają na skórze rdzawe ziarenka. Łatwo go pokochać za ten ciepły, jesienny kolor.",
+    "whereInPoland": "Naturalnie w Sudetach (rowy śródsudeckie) oraz okolicach Krakowa (Krzeszowice, Sławków) i w Górach Świętokrzyskich. W całej Polsce trafia się jako otoczak w żwirze i na polach.",
+    "howToSearch": "Szukaj na polnych drogach i w żwirze charakterystycznego ceglasto-czerwonego kamienia o ziarnistej, piaszczystej powierzchni. Test: potrzyj go o jaśniejszy kamień albo palec - miękki piaskowiec często zostawia rdzawy ślad i czujesz pod palcem 'piasek'.",
+    "funFact": "Z czerwonego piaskowca zbudowano wiele zamków i kościołów w Sudetach - ten sam kamień, który znajdujesz na polu, można zobaczyć w ścianach starych budowli.",
+    "regions": [
+      "cala-polska",
+      "dolny-slask-sudety",
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/piaskowiec-czerwony.jpg",
+      "author": "Miller, Hugh, 1802-1856",
+      "license": "No restrictions",
+      "source": "https://commons.wikimedia.org/wiki/File:The_old_red_sandstone;_or,_New_walks_in_an_old_field._To_which_is_appended_a_series_of_geological_papers,_read_before_the_Royal_physical_society_of_Edinburgh_(1858)_(14596734657).jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "zlepieniec",
+    "name": "Zlepieniec (konglomerat)",
+    "nameLatin": "conglomerate rock pudding stone",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Najzabawniejszy kamień na polu - wygląda, jakby ktoś nabrał garść kolorowych żwirków i skleił je naturalnym cementem w jedną bryłę! Po angielsku nazywają go nawet 'kamieniem-puddingiem', bo te okrąglutkie kamyczki w środku wyglądają jak rodzynki w cieście. Każdy zlepieniec jest inny, bo ma w sobie inne kamyczki.",
+    "whereInPoland": "Cała Polska w żwirze i na polach. Słynne naturalne zlepieńce: zygmuntowski i myślachowicki w okolicach Krakowa oraz w Górach Świętokrzyskich (z otoczaków dewońskich wapieni).",
+    "howToSearch": "Szukaj na pryzmach kamieni i w żwirowniach bryły, w której WYRAŹNIE widać posklejane okrągłe kamyczki różnej wielkości i koloru. Jeśli wygląda jak zastygły żwir albo 'kamienne ciasto z rodzynkami' - to zlepieniec.",
+    "funFact": "Kamyczki w zlepieńcu są okrągłe, bo zanim się skleiły, były obtaczane przez rzekę albo morze - każdy z nich to mały otoczak sprzed milionów lat zamknięty w kamieniu.",
+    "regions": [
+      "cala-polska",
+      "jura-krakowska",
+      "gory-swietokrzyskie"
+    ],
+    "image": {
+      "file": "/images/stones/zlepieniec.jpg",
+      "author": "Roy Parkhouse",
+      "license": "CC BY-SA 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Conglomerate_rock_called_puddingstone._-_geograph.org.uk_-_480555.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "ruda-darniowa",
+    "name": "Ruda darniowa (limonit)",
+    "nameLatin": "bog iron ore limonite",
+    "category": "mineral",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Brunatna, rdzawo-żółta, dziurkowata skała, z której nasi przodkowie WYTAPIALI ŻELAZO! Jest dziwnie lekka, gąbczasta, pełna dziur i często kruszy się w palcach na rdzawy proszek. Powstawała na bagnach i mokrych łąkach, gdzie żelazo z wody osiadało razem z pomocą maleńkich bakterii. To prawdziwy skarb dla łowcy kamieni.",
+    "whereInPoland": "Powszechnie na Niżu Polskim, zwłaszcza w Wielkopolsce, na podmokłych łąkach, w pradolinach i na torfowiskach. Też Podkarpacie i Lubelszczyzna.",
+    "howToSearch": "Szukaj przy podmokłych łąkach, rowach i starych bagnach brunatno-rdzawej, dziurkowatej i zaskakująco lekkiej bryły. Test: jest lżejsza niż zwykły kamień tej wielkości, kruszy się i zostawia rdzawy ślad na dłoni.",
+    "funFact": "Z rudy darniowej kuto żelazo już 2000 lat temu - w Górach Świętokrzyskich działało jedno z największych w ówczesnej Europie centrów wytopu żelaza pod gołym niebem.",
+    "regions": [
+      "cala-polska"
+    ],
+    "image": {
+      "file": "/images/stones/ruda-darniowa.jpg",
+      "author": "Darla Sondrol",
+      "license": "CC0",
+      "source": "https://commons.wikimedia.org/wiki/File:Bog_iron_(GeoDIL_number_-_1323).jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "hematyt",
+    "name": "Hematyt (czerwona ochra)",
+    "nameLatin": "hematite red ochre",
+    "category": "mineral",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Z wierzchu może być ciemny, szary albo czarny i metaliczny, ale ma magiczną tajemnicę: kiedy potrzesz nim o jasny kamień, RYSUJE NA CZERWONO jak krwista kredka! To ruda żelaza, a jej czerwony proszek (ochra) służył ludziom do malowania już w epoce kamienia. Świetny do robienia sztuczek - 'patrz, ten czarny kamień maluje na czerwono!'",
+    "whereInPoland": "Naturalnie w Górach Świętokrzyskich (okolice Nowej Słupi, rezerwat Rydno koło Skarżyska), Górach Kaczawskich, Kotlinie Kłodzkiej, Tatrach i Karkonoszach. Czerwone naloty trafiają się też na kamieniach w całej Polsce.",
+    "howToSearch": "Najpewniejszy test w terenie: potrzyj kamieniem o jasną, surową płytkę (albo niepolewaną stronę kafelka) - hematyt zawsze zostawia czerwono-wiśniową rysę, nawet jeśli sam jest ciemny. Bywa ciężki i ma metaliczny połysk.",
+    "funFact": "Ludzie z epoki kamienia malowali czerwoną ochrą z hematytu ściany jaskiń i posypywali nią groby zmarłych - to jedna z najstarszych 'farb' w historii ludzkości.",
+    "regions": [
+      "gory-swietokrzyskie",
+      "dolny-slask-sudety",
+      "karpaty-malopolska"
+    ],
+    "image": {
+      "file": "/images/stones/hematyt.jpg",
+      "author": "James St. John",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Earthy_hematite_(Black_Hills,_South_Dakota,_USA)_1.jpg",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "lupek-ilasty",
+    "name": "Łupek ilasty (szary)",
+    "nameLatin": "grey clay shale slate",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Szary albo ciemny kamień, który ma niezwykłą zdolność: rozwarstwia się na cieniutkie płytki jak kartki sklejonej książki! Powstał z mułu i iłu na dnie dawnego morza, ściskanego przez miliony lat. Można go ostrożnie 'rozłupywać' na płaskie blaszki - stąd jego nazwa. Czasem na płytkach kryją się odciski skamieniałości.",
+    "whereInPoland": "Bardzo pospolity w Karpatach (flisz - prawie cały region poza Tatrami i Pieninami), w Górach Świętokrzyskich i w Sudetach. W górskich potokach i przy drogach leśnych.",
+    "howToSearch": "Szukaj nad górskimi i podgórskimi potokami oraz przy osuwiskach płaskich, szarych kamieni. Test: spróbuj delikatnie podważyć paznokciem albo scyzorykiem brzeg - łupek daje się rozdzielić na cienkie płytki wzdłuż warstw.",
+    "funFact": "Z łupka robiono kiedyś dachówki i tabliczki do pisania w szkole - 'czarna tablica' z kredą wzięła się właśnie od płytek łupka.",
+    "regions": [
+      "karpaty-malopolska",
+      "gory-swietokrzyskie",
+      "dolny-slask-sudety"
+    ],
+    "image": {
+      "file": "/images/stones/lupek-ilasty.jpg",
+      "author": "Gbuchana (talk) (Uploads)",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Argillite.JPG",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "kamien-szczescia",
+    "name": "Kamień szczęścia (z pierścieniem kwarcu)",
+    "nameLatin": "wishing stone quartz ring pebble",
+    "category": "skala",
+    "rarity": "niezbyt-czesty",
+    "points": 10,
+    "description": "Zwykły otoczak, który ma wokół siebie PEŁNY, nieprzerwany biały pierścień kwarcu - jakby ktoś owinął kamień białą gumką dookoła! Według tradycji taki kamień przynosi szczęście: ściskasz go, pomyśl życzenie i... podobno się spełnia. Pierścień musi być cały, bez przerwy - to czyni go wyjątkowym i trudniejszym do znalezienia.",
+    "whereInPoland": "Plaże Bałtyku (Pomorze) oraz żwirownie, brzegi rzek i pola w całej Polsce, wszędzie tam, gdzie leżą polodowcowe otoczaki.",
+    "howToSearch": "Przeglądaj otoczaki na plaży lub w żwirze i szukaj białej żyłki kwarcu, która OBIEGA kamień DOOKOŁA bez przerwy. Jeśli pierścień jest pełny i się domyka - masz kamień szczęścia! Częściowe paski się nie liczą, choć też są ładne.",
+    "funFact": "Na plażach całego świata ludzie zbierają takie kamienie z pełnym pierścieniem i nazywają je 'wishing stones' - to jedna z niewielu geologicznych tradycji znanych od Bałtyku po Kanadę.",
+    "regions": [
+      "baltyk-pomorze",
+      "cala-polska"
+    ],
+    "image": {
+      "file": "/images/stones/kamien-szczescia.svg",
+      "author": "",
+      "license": "",
+      "source": "",
+      "placeholder": true
+    }
+  },
+  {
+    "id": "otoczak-z-zyla-kwarcu",
+    "name": "Otoczak z żyłą kwarcu",
+    "nameLatin": "quartz vein pebble",
+    "category": "skala",
+    "rarity": "pospolity",
+    "points": 5,
+    "description": "Ciemny albo szary otoczak przecięty białą żyłą kwarcu, która biegnie przez niego jak BŁYSKAWICA albo blizna! Ta biała smuga to dawne pęknięcie w skale, które wypełnił kwarc wytrącony z gorących wód głęboko pod ziemią. Każdy taki kamień ma inny wzór - jeden ma jedną błyskawicę, inny całą pajęczynę białych żyłek.",
+    "whereInPoland": "Cała Polska - plaże Bałtyku, żwirownie, brzegi rzek, pola. Wszędzie wśród polodowcowych otoczaków.",
+    "howToSearch": "Szukaj wśród otoczaków takiego, przez który biegnie wyraźna biała (czasem różowawa) smuga kwarcu kontrastująca z ciemniejszym tłem. Kwarc jest twardszy niż reszta kamienia, więc żyła często lekko WYSTAJE ponad gładką powierzchnię.",
+    "funFact": "Żyła kwarcu powstała, gdy gorąca woda z rozpuszczonym krzemem wciskała się w pęknięcie skały i tam zastygała - to jak naturalny klej, który zalał szczelinę i zamienił się w kamień.",
+    "regions": [
+      "cala-polska",
+      "baltyk-pomorze"
+    ],
+    "image": {
+      "file": "/images/stones/otoczak-z-zyla-kwarcu.jpg",
+      "author": "Sandro Arcais",
+      "license": "CC BY-SA 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Mugoni_beach._Brown_Green_Schist_Pebble_with_a_quartz_white_vein.jpg",
+      "placeholder": false
+    }
+  }
+]

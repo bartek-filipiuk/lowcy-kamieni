@@ -1,0 +1,403 @@
+/* ====== Łowcy Kamieni — notes terenowego odkrywcy ====== */
+
+:root {
+  --paper: #f5efe1;
+  --paper-deep: #ece1cb;
+  --card: #fdfaf2;
+  --ink: #3d332a;
+  --ink-soft: #71634f;
+  --terracotta: #c0633c;
+  --terracotta-deep: #9c4d2c;
+  --olive: #6f7a3c;
+  --olive-soft: #b9bf90;
+  --gold: #b8862b;
+  --stone: #8c857b;
+  --plum: #7c5874;
+  --line: rgba(61, 51, 42, 0.16);
+  --shadow: 0 2px 10px rgba(61, 51, 42, 0.08), 0 10px 28px rgba(61, 51, 42, 0.07);
+  --radius: 18px;
+  --font-display: 'Fraunces Variable', Georgia, serif;
+  --font-body: 'Atkinson Hyperlegible', 'Segoe UI', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.55;
+  padding-bottom: calc(86px + env(safe-area-inset-bottom));
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ziarno papieru */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.38 0 0 0 0 0.32 0 0 0 0 0.26 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+main, header.site, .bottombar { position: relative; z-index: 1; }
+
+h1, h2, h3, .display { font-family: var(--font-display); font-weight: 640; letter-spacing: -0.01em; }
+
+a { color: var(--terracotta-deep); }
+
+button { font-family: var(--font-body); cursor: pointer; }
+
+:focus-visible { outline: 3px solid var(--terracotta); outline-offset: 2px; border-radius: 6px; }
+
+/* ====== Nagłówek ====== */
+header.site { text-align: center; padding: 26px 16px 4px; }
+
+header.site h1 {
+  margin: 0;
+  font-size: clamp(2rem, 7vw, 3.1rem);
+  font-variation-settings: 'SOFT' 70, 'WONK' 1;
+  color: var(--ink);
+}
+
+header.site h1 .pick { display: inline-block; transform: rotate(-12deg); }
+
+header.site .tagline {
+  margin: 2px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.squiggle { display: block; margin: 8px auto 0; width: 130px; color: var(--terracotta); }
+
+main { max-width: 1060px; margin: 0 auto; padding: 14px 14px 30px; }
+
+/* ====== Pasek narzędzi (szukaj + filtry) ====== */
+.toolbar { display: grid; gap: 10px; margin: 10px 0 18px; }
+
+.search-wrap { position: relative; }
+
+.search-wrap .lens { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); font-size: 1.05rem; }
+
+#search {
+  width: 100%;
+  padding: 13px 16px 13px 44px;
+  font-size: 1.05rem;
+  font-family: var(--font-body);
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--ink);
+}
+
+#search::placeholder { color: var(--ink-soft); opacity: 0.7; }
+
+.chips { display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 6px; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+
+.chip {
+  flex: 0 0 auto;
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1.5px solid var(--line);
+  background: var(--card);
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  font-weight: 700;
+  transition: all 0.15s ease;
+}
+
+.chip[aria-pressed='true'] { background: var(--olive); border-color: var(--olive); color: #fff; }
+
+.chips.rarity .chip[aria-pressed='true'] { background: var(--terracotta); border-color: var(--terracotta); }
+
+.row-split { display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+
+.segmented { display: inline-flex; border: 1.5px solid var(--line); border-radius: 999px; background: var(--card); padding: 3px; }
+
+.segmented button {
+  border: 0; background: transparent; border-radius: 999px;
+  padding: 6px 13px; font-size: 0.9rem; font-weight: 700; color: var(--ink-soft);
+}
+
+.segmented button[aria-pressed='true'] { background: var(--ink); color: var(--paper); }
+
+#sort {
+  font-family: var(--font-body); font-size: 0.92rem; font-weight: 700;
+  padding: 8px 12px; border-radius: 999px; border: 1.5px solid var(--line);
+  background: var(--card); color: var(--ink-soft);
+}
+
+.result-count { color: var(--ink-soft); font-size: 0.88rem; margin: 2px 4px; }
+
+/* ====== Karty okazów ====== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
+  gap: 13px;
+}
+
+@media (min-width: 700px) {
+  .grid { grid-template-columns: repeat(auto-fill, minmax(215px, 1fr)); gap: 16px; }
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+@media (hover: hover) {
+  .card:hover { transform: translateY(-4px) rotate(-0.5deg); box-shadow: 0 6px 16px rgba(61,51,42,0.13), 0 16px 38px rgba(61,51,42,0.1); }
+}
+
+.card.hidden { display: none; }
+
+.card-open { border: 0; background: none; padding: 0; text-align: left; color: inherit; display: block; }
+
+.card-media { position: relative; aspect-ratio: 4 / 3; background: var(--paper-deep); overflow: hidden; }
+
+.card-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: filter 0.25s ease; }
+
+.card:not(.found) .card-media img { filter: grayscale(0.5) saturate(0.85) brightness(1.02); }
+
+.rarity-chip {
+  position: absolute; top: 8px; left: 8px;
+  font-size: 0.72rem; font-weight: 800; letter-spacing: 0.03em;
+  padding: 3px 9px; border-radius: 999px; color: #fff;
+  background: var(--stone);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+}
+
+[data-rarity='niezbyt-czesty'] .rarity-chip { background: var(--olive); }
+[data-rarity='rzadki'] .rarity-chip { background: var(--terracotta); }
+[data-rarity='bardzo-rzadki'] .rarity-chip { background: var(--gold); }
+[data-rarity='legendarny'] .rarity-chip {
+  background: linear-gradient(110deg, var(--plum), #a4729a 40%, var(--gold) 60%, var(--plum));
+  background-size: 220% 100%;
+  animation: shimmer 2.6s linear infinite;
+}
+
+@keyframes shimmer { to { background-position: -220% 0; } }
+
+.stamp {
+  position: absolute; inset: 0; display: none;
+  align-items: center; justify-content: center;
+  pointer-events: none;
+}
+
+.stamp span {
+  font-family: var(--font-display);
+  font-weight: 700; font-size: 1.05rem; letter-spacing: 0.06em;
+  color: var(--olive); border: 3px solid var(--olive);
+  padding: 4px 12px; border-radius: 10px;
+  background: rgba(253, 250, 242, 0.82);
+  transform: rotate(-11deg);
+  box-shadow: 0 2px 8px rgba(61,51,42,0.18);
+}
+
+.card.found .stamp { display: flex; animation: stamp-in 0.35s cubic-bezier(0.2, 1.6, 0.4, 1); }
+.card.found { border-color: var(--olive-soft); }
+
+@keyframes stamp-in {
+  0% { transform: scale(2.2); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.card-body { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 7px; flex: 1; }
+
+.card-body h3 { margin: 0; font-size: 1.06rem; line-height: 1.25; }
+
+.card-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 0.8rem; color: var(--ink-soft); }
+
+.points { font-family: var(--font-display); font-weight: 700; font-size: 0.92rem; color: var(--terracotta-deep); }
+
+.find-btn {
+  margin-top: auto;
+  padding: 9px 10px;
+  border-radius: 12px;
+  border: 2px dashed var(--olive);
+  background: transparent;
+  color: var(--olive);
+  font-weight: 800;
+  font-size: 0.93rem;
+  transition: all 0.15s ease;
+}
+
+.find-btn:active { transform: scale(0.96); }
+
+.card.found .find-btn { border-style: solid; background: var(--olive); color: #fff; }
+
+/* ====== Modal ====== */
+dialog#stone-dialog {
+  border: 0; border-radius: 22px; padding: 0;
+  width: min(560px, calc(100% - 24px));
+  max-height: 88dvh;
+  background: var(--card); color: var(--ink);
+  box-shadow: 0 24px 80px rgba(40, 30, 20, 0.35);
+}
+
+dialog#stone-dialog::backdrop { background: rgba(61, 51, 42, 0.45); backdrop-filter: blur(3px); }
+
+dialog#stone-dialog[open] { animation: pop-in 0.22s cubic-bezier(0.2, 1.4, 0.4, 1); }
+
+@keyframes pop-in { from { transform: translateY(18px) scale(0.97); opacity: 0; } }
+
+.dlg-media { position: relative; aspect-ratio: 16 / 10; background: var(--paper-deep); }
+.dlg-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.dlg-close {
+  position: absolute; top: 10px; right: 10px;
+  width: 38px; height: 38px; border-radius: 50%;
+  border: 0; background: rgba(253, 250, 242, 0.92); color: var(--ink);
+  font-size: 1.15rem; font-weight: 800; line-height: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.dlg-body { padding: 16px 18px 20px; overflow-y: auto; }
+
+.dlg-body h2 { margin: 0 0 2px; font-size: 1.55rem; }
+
+.dlg-tags { display: flex; gap: 7px; flex-wrap: wrap; margin: 6px 0 12px; font-size: 0.78rem; }
+
+.tag { padding: 3px 10px; border-radius: 999px; background: var(--paper-deep); color: var(--ink-soft); font-weight: 700; }
+.tag.points-tag { background: var(--terracotta); color: #fff; }
+
+.dlg-section { margin: 12px 0; padding: 11px 13px; border-radius: 14px; background: var(--paper); border: 1px dashed var(--line); }
+.dlg-section h4 { margin: 0 0 4px; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--terracotta-deep); font-family: var(--font-body); font-weight: 800; }
+.dlg-section p { margin: 0; font-size: 0.97rem; }
+
+.dlg-attr { font-size: 0.72rem; color: var(--ink-soft); opacity: 0.85; margin-top: 10px; }
+.dlg-attr a { color: inherit; }
+
+.dlg-find { width: 100%; margin-top: 8px; padding: 14px; font-size: 1.05rem; border-radius: 14px; border: 2px dashed var(--olive); background: transparent; color: var(--olive); font-weight: 800; }
+.dlg-find.found { border-style: solid; background: var(--olive); color: #fff; }
+
+/* ====== Dolny pasek ====== */
+.bottombar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+  background: rgba(253, 250, 242, 0.93);
+  backdrop-filter: blur(10px);
+  border-top: 1.5px solid var(--line);
+}
+
+.bb-score { display: flex; flex-direction: column; min-width: 86px; }
+
+.bb-points { font-family: var(--font-display); font-weight: 750; font-size: 1.3rem; line-height: 1.1; color: var(--terracotta-deep); }
+.bb-points small { font-size: 0.72rem; font-weight: 700; color: var(--ink-soft); font-family: var(--font-body); }
+
+.bb-found { font-size: 0.76rem; color: var(--ink-soft); font-weight: 700; }
+
+.bb-level { flex: 1; min-width: 0; }
+.bb-level-name { font-size: 0.78rem; font-weight: 800; color: var(--olive); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bb-track { height: 7px; border-radius: 99px; background: var(--paper-deep); border: 1px solid var(--line); overflow: hidden; margin-top: 3px; }
+.bb-fill { height: 100%; width: 0%; border-radius: 99px; background: linear-gradient(90deg, var(--olive), var(--gold)); transition: width 0.5s ease; }
+
+.bb-nav { display: flex; gap: 6px; }
+
+.bb-nav a {
+  display: flex; flex-direction: column; align-items: center;
+  text-decoration: none; font-size: 0.7rem; font-weight: 800; color: var(--ink-soft);
+  padding: 5px 10px; border-radius: 12px;
+}
+
+.bb-nav a .ico { font-size: 1.25rem; line-height: 1.2; }
+
+.bb-nav a[aria-current='page'] { background: var(--paper-deep); color: var(--ink); }
+
+/* ====== Konfetti ====== */
+.confetti-piece {
+  position: fixed; z-index: 200; top: 0; left: 0;
+  width: 10px; height: 10px; border-radius: 2px;
+  pointer-events: none;
+  animation: confetti-fall var(--dur, 1s) ease-in forwards;
+}
+
+@keyframes confetti-fall {
+  0% { transform: translate(var(--x0), var(--y0)) rotate(0deg) scale(1); opacity: 1; }
+  100% { transform: translate(var(--x1), var(--y1)) rotate(var(--rot)) scale(0.7); opacity: 0; }
+}
+
+/* ====== Kolekcja ====== */
+.hero-stats {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+  margin: 14px 0 20px;
+}
+
+.stat {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); text-align: center; padding: 14px 8px;
+}
+
+.stat b { display: block; font-family: var(--font-display); font-size: 1.5rem; font-weight: 750; color: var(--terracotta-deep); }
+.stat span { font-size: 0.78rem; color: var(--ink-soft); font-weight: 700; }
+
+.section-h { display: flex; align-items: baseline; gap: 10px; margin: 26px 0 12px; }
+.section-h h2 { margin: 0; font-size: 1.35rem; }
+.section-h small { color: var(--ink-soft); font-weight: 700; }
+
+.badges { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+
+.badge {
+  background: var(--card); border: 2px dashed var(--line); border-radius: var(--radius);
+  padding: 14px 10px; text-align: center;
+  transition: transform 0.15s ease;
+}
+
+.badge .b-emoji { font-size: 2rem; display: block; filter: grayscale(1) opacity(0.45); }
+.badge .b-name { font-family: var(--font-display); font-weight: 700; font-size: 0.98rem; margin: 5px 0 2px; }
+.badge .b-desc { font-size: 0.76rem; color: var(--ink-soft); }
+.badge .b-progress { font-size: 0.74rem; font-weight: 800; color: var(--ink-soft); margin-top: 6px; }
+
+.badge.earned { border: 2px solid var(--gold); background: linear-gradient(160deg, var(--card), #f9efd8); box-shadow: var(--shadow); }
+.badge.earned .b-emoji { filter: none; }
+.badge.earned .b-progress { color: var(--gold); }
+
+.empty-note {
+  background: var(--card); border: 1px dashed var(--line); border-radius: var(--radius);
+  padding: 22px; text-align: center; color: var(--ink-soft);
+}
+
+/* zapis */
+.save-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+
+.btn {
+  padding: 11px 18px; border-radius: 12px; font-weight: 800; font-size: 0.95rem;
+  border: 2px solid var(--ink); background: var(--ink); color: var(--paper);
+}
+
+.btn.secondary { background: transparent; color: var(--ink); }
+.btn.danger { border-color: var(--terracotta-deep); background: transparent; color: var(--terracotta-deep); }
+
+.save-note { font-size: 0.8rem; color: var(--ink-soft); margin-top: 8px; }
+
+footer.site { text-align: center; color: var(--ink-soft); font-size: 0.75rem; padding: 30px 16px 10px; opacity: 0.8; }
+
+/* toast poziomu */
+.level-toast {
+  position: fixed; top: 16px; left: 50%; transform: translateX(-50%) translateY(-90px);
+  z-index: 300; background: var(--ink); color: var(--paper);
+  font-weight: 800; padding: 12px 22px; border-radius: 999px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: transform 0.35s cubic-bezier(0.2, 1.4, 0.4, 1);
+  text-align: center;
+}
+
+.level-toast.show { transform: translateX(-50%) translateY(0); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

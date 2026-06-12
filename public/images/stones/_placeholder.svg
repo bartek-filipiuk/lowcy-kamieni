@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#ece1cb"/>
+  <path d="M120 210 L170 110 L250 130 L290 210 Z" fill="#8c857b" stroke="#71634f" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M170 110 L205 160 L250 130" fill="none" stroke="#71634f" stroke-width="4"/>
+  <text x="200" y="262" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#71634f">okaz w przygotowaniu…</text>
+</svg>

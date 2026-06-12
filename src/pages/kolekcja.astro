@@ -1,0 +1,54 @@
+---
+import Layout from '../layouts/Layout.astro';
+import stonesRaw from '../data/stones.json';
+import { REGIONS, RARITIES, CATEGORIES } from '../lib/meta.js';
+
+const stones = stonesRaw.map((s) => ({
+  ...s,
+  rarityLabel: RARITIES[s.rarity] ?? s.rarity,
+  categoryLabel: CATEGORIES[s.category] ?? s.category,
+  regionLabels: s.regions.map((r) => REGIONS[r] ?? r),
+}));
+---
+
+<Layout title="Łowcy Kamieni — Nasza kolekcja">
+  <div class="hero-stats">
+    <div class="stat"><b data-stat-points>0</b><span>punktów</span></div>
+    <div class="stat"><b data-stat-found>0/0</b><span>okazów</span></div>
+    <div class="stat"><b data-stat-level style="font-size:1.02rem">🪨 Żwirek</b><span>poziom drużyny</span></div>
+  </div>
+
+  <div class="section-h">
+    <h2>🎖️ Odznaki</h2>
+    <small>zdobyte: <span data-badges-count>0/0</span></small>
+  </div>
+  <div class="badges" data-badges></div>
+
+  <div class="section-h">
+    <h2>🧺 Nasze zdobycze</h2>
+    <small>od najnowszych</small>
+  </div>
+  <p class="empty-note" data-found-empty>
+    Jeszcze pusto! Bierzcie plecaki i na łowy — pierwszy okaz czeka gdzieś pod nogami. 🥾
+  </p>
+  <section class="grid" data-found-grid></section>
+
+  <div class="section-h">
+    <h2>💾 Zapis gry</h2>
+  </div>
+  <div class="save-actions">
+    <button class="btn" data-export>⬇️ Pobierz zapis (JSON)</button>
+    <label class="btn secondary" style="cursor:pointer">
+      ⬆️ Wczytaj zapis
+      <input type="file" accept="application/json,.json" data-import style="display:none" />
+    </label>
+    <button class="btn danger" data-reset>🧹 Wyzeruj</button>
+  </div>
+  <p class="save-note">
+    Postęp zapisuje się automatycznie w pamięci tej przeglądarki. Plik JSON to zapas „na czarną godzinę" — pobierz go
+    co jakiś czas albo przenieś nim kolekcję na inny sprzęt (wczytanie dokłada okazy, niczego nie kasuje).
+  </p>
+
+  <script type="application/json" id="stones-data" set:html={JSON.stringify(stones)} />
+  <script src="../scripts/game.js"></script>
+</Layout>
